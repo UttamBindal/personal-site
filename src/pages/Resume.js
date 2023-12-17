@@ -7,10 +7,7 @@ import Main from '../layouts/Main';
 
 const { PUBLIC_URL } = process.env;
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 // import Education from '../components/Resume/Education';
 // import Experience from '../components/Resume/Experience';
 // import Skills from '../components/Resume/Skills';
