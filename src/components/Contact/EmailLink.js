@@ -9,22 +9,27 @@ const validateText = (text) => {
   return re.test(text) || text.length === 0;
 };
 
+// const messages = [
+//   'hi',
+//   'hello',
+//   'hola',
+//   'you-can-email-me-at-literally-anything! Really',
+//   'well, not anything. But most things',
+//   'like-this',
+//   'or-this',
+//   'but not this :(  ',
+//   'you.can.also.email.me.with.specific.topics.like',
+//   'just-saying-hi',
+//   'please-work-for-us',
+//   'help',
+//   'admin',
+//   'or-I-really-like-your-website',
+//   'thanks',
+// ];
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'contact',
+  'spam',
+  'uttam',
 ];
 
 const useInterval = (callback, delay) => {
