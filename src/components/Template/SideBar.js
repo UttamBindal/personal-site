@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Uttam. I am a <a href="https://vtu.ac.in/">Visvesvaraya Technological University</a> graduate
-        and Backend Enginnering Intern at <a href="https://convin.ai/">Convin.ai</a>.
+        and Backend Engineering Intern at <a href="https://convin.ai/">Convin.ai</a>.
       </p>
       <ul className="actions">
         <li>
