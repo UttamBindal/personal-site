@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Document, Page } from 'react-pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
 
 import Main from '../layouts/Main';
 
 const { PUBLIC_URL } = process.env;
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 // import Education from '../components/Resume/Education';
 // import Experience from '../components/Resume/Experience';
 // import Skills from '../components/Resume/Skills';
