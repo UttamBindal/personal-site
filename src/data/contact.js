@@ -48,7 +48,7 @@ const data = [
     icon: faEnvelope,
   },
   {
-    link: `${PUBLIC_URL}/resume/resume.pdf`,
+    link: `${PUBLIC_URL}/files/resume.pdf`,
     label: 'Resume',
     icon: faFile,
   },

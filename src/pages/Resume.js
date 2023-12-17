@@ -49,7 +49,7 @@ const Resume = () => (
         <Section key={name} />
       ))} */}
       <div className="center-container">
-        <Document file={`${PUBLIC_URL}/resume/resume.pdf`}>
+        <Document file={`${PUBLIC_URL}/files/resume.pdf`}>
           <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} />
         </Document>
       </div>
