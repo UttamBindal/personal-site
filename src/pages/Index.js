@@ -18,11 +18,19 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
+      {/* <p> Welcome to my website. Please feel free to read more {' '}
+      <Link to="/about">about me</Link>,
+         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        {/* view <Link to="/stats">site statistics</Link>, {' '} */}
+         view <Link to="/stats">site statistics</Link>, {' '}
+        or <Link to="/contact">contact</Link> me.
+      </p> */}
+
+      <p>Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+        explore my {' '}
+        <Link to="/resume">resume</Link>, view my {' '}
+        <Link to="/projects">projects</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
     </article>

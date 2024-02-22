@@ -1,6 +1,6 @@
 # Intro
 
-I am a Backend Intern at Convin.ai. In my spare time, I enjoy watching tv-shows and knowing about the world. I am particularly interested in projects related to Software Development and Electroonics. I am always open to connect with like-minded people and share ideas. Feel free to reach out to me if you need any assistance.
+I am a Backend Intern at Convin.ai. In my spare time, I enjoy watching TV shows and staying informed about the world. I am particularly interested in projects related to Software Development and Electronics. I am always open to connecting with like-minded people and sharing ideas. Feel free to reach out to me if you need any assistance.
 
 <!-- # Some history
 
